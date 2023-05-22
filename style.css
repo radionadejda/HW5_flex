@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(189, 185, 185);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+main {
+    display: flex;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+h1 {
+    width: 100%;
+}
+
+.left {
+    border: 1px solid red;
+    background-color: rgb(242, 211, 155);
+    display: flex;
+    padding: 10px;
+    width: 60vw;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.left_bottom {
+border: 1px solid red;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.more1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    background-color: rgb(174, 128, 71);
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 45%;
+    }
+.more2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    background-color: rgb(174, 128, 71);
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+    }
+
+aside {
+    padding: 10px;
+    width: 40vw;
+    border: 1px solid red;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footersection {
+    border: 1px solid red;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    width: 25vw;
+    text-align: center;
+}
