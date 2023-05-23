@@ -9,13 +9,11 @@ header {
     justify-content: center;
     align-content: center;
     padding: 10px;
-    border: 1px solid red;
 }
 
 main {
     display: flex;
     padding: 10px;
-    border: 1px solid red;
 }
 
 h1 {
@@ -23,7 +21,6 @@ h1 {
 }
 
 .left {
-    border: 1px solid red;
     background-color: rgb(242, 211, 155);
     display: flex;
     padding: 10px;
@@ -34,7 +31,6 @@ h1 {
 }
 
 .left_bottom {
-border: 1px solid red;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -44,7 +40,6 @@ flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     background-color: rgb(174, 128, 71);
     margin: 10px;
     flex-grow: 1;
@@ -54,7 +49,6 @@ flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     background-color: rgb(174, 128, 71);
     margin: 10px;
     flex-grow: 1;
@@ -64,7 +58,6 @@ flex-wrap: wrap;
 aside {
     padding: 10px;
     width: 40vw;
-    border: 1px solid red;
     background-color: aquamarine;
     text-align: center;
 }
@@ -75,7 +68,6 @@ footer {
 }
 
 .footersection {
-    border: 1px solid red;
     background-color: bisque;
     padding: 10px;
     margin: 10px;
