@@ -30,7 +30,7 @@ h1 {
     text-align: center;
 }
 
-.left_bottom {
+.left-bottom {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -67,7 +67,7 @@ footer {
     justify-content: space-between;
 }
 
-.footersection {
+.footer-section {
     background-color: bisque;
     padding: 10px;
     margin: 10px;
